@@ -1,0 +1,28 @@
+.home-banner{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+.main-text-part {
+    margin:10px 20px ;
+    text-align: left;
+}
+.res-name{
+    font-size: 55px;
+    font-weight: 900;
+    color: darkgoldenrod;
+}
+.food-name{
+    font-size: 50px;
+    font-weight: 900;
+    color: darkmagenta;
+}
+
+.main-text-part p {
+    color: darkred;
+    font-size: 23px;
+    font-weight: 600;
+}
