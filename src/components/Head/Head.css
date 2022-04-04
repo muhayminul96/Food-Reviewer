@@ -1,0 +1,14 @@
+.nav-bar{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu {
+    padding: 0 20px;
+    font-size: 24px;
+    
+    margin: 2px 10px;
+    
+}
