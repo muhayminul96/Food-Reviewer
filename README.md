@@ -1,2 +1,2 @@
 ## Food Reviewer
-# Livelink[https://classroom.github.com]
+# [Livelink](https://classroom.github.com)
