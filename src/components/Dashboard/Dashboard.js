@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Dashboard.css'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Bar, BarChart, PieChart, Pie, RadarChart, PolarGrid, PolarAngleAxis, Radar, PolarRadiusAxis } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Bar, BarChart, PieChart, Pie, RadarChart, PolarGrid, PolarAngleAxis, Radar, PolarRadiusAxis, AreaChart, Area } from 'recharts';
 
 
 const Dashboard = () => {
@@ -75,16 +75,27 @@ const Dashboard = () => {
                     <Tooltip />
                 </PieChart>
             </div>
-            <div className="rader-chart">
-                <h1>Rader Chart</h1>
-                <RadarChart cx="50%" cy="50%" outerRadius="80%" data={datas}>
-          <PolarGrid />
-          <PolarAngleAxis dataKey="investment" />
-          <PolarRadiusAxis angle={30} domain={[0, 150]} />
-          <Radar name="Mike" dataKey="sell" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
-          <Radar name="Lily" dataKey="month" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} />
-          <Legend />
-        </RadarChart>
+            <div className="area-cart">
+                <h1>Area Chart</h1>
+                <AreaChart
+          width={500}
+          height={400}
+          data={datas}
+          margin={{
+            top: 10,
+            right: 30,
+            left: 0,
+            bottom: 0,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="month" />
+          <YAxis />
+          <Tooltip />
+          <Area type="monotone" dataKey="sell" stackId="1" stroke="#8884d8" fill="#8884d8" />
+          <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+          <Area type="monotone" dataKey="investment" stackId="1" stroke="#ffc658" fill="#ffc658" />
+        </AreaChart>
             </div>
 
 
