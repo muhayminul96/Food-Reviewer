@@ -12,18 +12,18 @@
     text-align: left;
 }
 .res-name{
-    font-size: 55px;
+    font-size: 65px;
     font-weight: 900;
-    color: darkgoldenrod;
+    color: #E02C6D;
 }
 .food-name{
     font-size: 50px;
     font-weight: 900;
-    color: darkmagenta;
+    color: black;
 }
 
 .main-text-part p {
-    color: darkred;
+    color: black;
     font-size: 23px;
     font-weight: 600;
 }
@@ -36,8 +36,8 @@
     font-size: 18px;
     border-radius: 10px;
     font-weight: 600;
-    background-color: #FFD36E;
-    color: #4700D8;
+    background-color: lightsalmon;
+    color: black;
 }
 
 .review-part{
