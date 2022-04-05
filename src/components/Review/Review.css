@@ -1,0 +1,12 @@
+.review-info{
+margin: 20px;
+background-color: azure;
+}
+
+.reviewer-info{
+    background-color: darkorchid;
+    color: azure;
+    padding: 2px;
+    border-radius: 14px;
+
+}
