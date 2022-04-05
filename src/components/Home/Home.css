@@ -26,8 +26,22 @@
     font-size: 23px;
     font-weight: 600;
 }
+.review-container{
+    margin-bottom: 50px;
+   
+}
+.review-container button {
+    padding: 14px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #FFD36E;
+    color: #4700D8;
+}
 
 .review-part{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "624c02cebec4f8c936df8a1e",
+    "title": "What is context api?",
+    "blogText": "The React Context API allows a React project to generate global variables that may be passed around. This is an alternative to prop drilling, which involves passing props from grandparents to kid to parent, and so on. Context api is also marketed as a better, lighter way to Redux state management. .\r\n"
+  },
+  {
+    "id": "624c02ce0a76f6fc67382eb1",
+    "title": "Camacho Hall",
+    "blogText": "Commodo officia labore reprehenderit sunt in aliqua aute voluptate voluptate amet deserunt aliquip. Laboris commodo velit do sint fugiat nisi et sit enim qui commodo non aute exercitation. Officia sunt nisi eu pariatur. Voluptate magna irure elit do cupidatat dolor veniam minim velit laboris commodo qui et. Dolor qui et reprehenderit consequat. Dolor nisi ea id proident duis velit eiusmod.\r\n"
+  },
+  {
+    "id": "624c02cea403162ac3f8edb7",
+    "title": "Johnnie English",
+    "blogText": "Enim deserunt reprehenderit nisi proident duis mollit sit ex. Enim elit ipsum aliquip minim incididunt non commodo exercitation deserunt in id labore nisi. Magna consequat sit duis aliquip excepteur nostrud labore minim mollit non veniam. Eu occaecat in tempor ullamco cillum ullamco sit mollit laborum in anim occaecat veniam dolore.\r\n"
+  }
+]
