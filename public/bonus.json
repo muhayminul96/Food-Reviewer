@@ -6,12 +6,12 @@
   },
   {
     "id": "624c02ce0a76f6fc67382eb1",
-    "title": "Camacho Hall",
-    "blogText": "Commodo officia labore reprehenderit sunt in aliqua aute voluptate voluptate amet deserunt aliquip. Laboris commodo velit do sint fugiat nisi et sit enim qui commodo non aute exercitation. Officia sunt nisi eu pariatur. Voluptate magna irure elit do cupidatat dolor veniam minim velit laboris commodo qui et. Dolor qui et reprehenderit consequat. Dolor nisi ea id proident duis velit eiusmod.\r\n"
+    "title": "What is semantic tag?",
+    "blogText": "Semantic HTML, also known as semantic markup, is HTML that adds meaning to a web page rather than merely making it seem pretty.A <p> tag, for example, denotes that the contained text is a paragraph. Because people understand what paragraphs are and how to display them, this is both semantic and presentational. Tags like <b> and <i> on the other hand, do not have any semantic value. They just specify how the text should appear (bold or italic), not the markup's meaning. \r\n"
   },
   {
     "id": "624c02cea403162ac3f8edb7",
-    "title": "Johnnie English",
-    "blogText": "Enim deserunt reprehenderit nisi proident duis mollit sit ex. Enim elit ipsum aliquip minim incididunt non commodo exercitation deserunt in id labore nisi. Magna consequat sit duis aliquip excepteur nostrud labore minim mollit non veniam. Eu occaecat in tempor ullamco cillum ullamco sit mollit laborum in anim occaecat veniam dolore.\r\n"
+    "title": "What is the difference between inline and inline-block elements?",
+    "blogText": "Inline elements: left and right margins and padding are respected, but top and bottom margins and padding are not. Inline elements cannot have a width and height defined that allows other elements to sit to their left and right. Important side comments on this may be found here. Other hand, Inline-block elements: Allow additional components to reside to the left and right of inline-block elements while maintaining top and bottom margins and padding. \r\n"
   }
 ]
