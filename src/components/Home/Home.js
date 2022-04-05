@@ -9,7 +9,7 @@ const Home = () => {
     const navigate = useNavigate()
     const homeReviews = reviews.slice(0,3)
     return (
-       <div>
+       <div className='home-body'>
             <div className='home-banner'>
                 <div className="main-text-part">
                     <h1 className='res-name'>Frying Nemo </h1>
