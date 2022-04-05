@@ -1,4 +1,5 @@
 import React from 'react';
+import './Reviews.css'
 import useReview from '../customHook/useReview';
 import Review from '../Review/Review';
 
