@@ -1,13 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from "react-router-dom";
 import Head from './components/Head/Head';
 import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   return (
     <div className="App">
       <Head></Head>
-      <Home></Home>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 }

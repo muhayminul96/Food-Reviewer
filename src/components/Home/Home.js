@@ -1,5 +1,6 @@
 import React from 'react';
 import useReview from '../customHook/useReview';
+import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
@@ -20,7 +21,10 @@ const Home = () => {
                 <h1> Review </h1>
                 <div className="review-part">
                     {
-                        reviews.slice(0,3).map(review => console.log(review))
+                        reviews.slice(0,3).map(review => <Review 
+                        key={review._id}
+                        review ={review}
+                        ></Review>)
                     }
                 </div>
             </div>

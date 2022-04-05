@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Head.css'
 
 const Head = () => {
     return (
         <div className='nav-bar'>
-            <div className='nav-menu'><a href='#'>Home</a></div>
-            <div className='nav-menu'><a href='#'>Review</a></div>
-            <div className='nav-menu'><a href='#'>Blog</a></div>
-            <div className='nav-menu'><a href='#'>About</a></div>
-            <div className='nav-menu'><a href='#'>DashBoard</a></div>
+            <div className='nav-menu'><Link to='home'>Home</Link></div>
+            <div className='nav-menu'><Link to='dashboard'>Dashboard</Link></div>
+            <div className='nav-menu'><Link to='review'>Review</Link></div>
+            <div className='nav-menu'><Link to='blog'>Blog</Link></div>
+            <div className='nav-menu'><Link to='about'>About</Link></div>
 
            
         </div>

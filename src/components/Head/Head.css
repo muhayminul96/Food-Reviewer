@@ -10,5 +10,14 @@
     font-size: 24px;
     
     margin: 2px 10px;
+    font-weight: 700;
+    
+}
+
+.nav-menu a{
+    text-decoration: none;
+}
+.nav-menu a:hover {
+    color: darkolivegreen;
     
 }
