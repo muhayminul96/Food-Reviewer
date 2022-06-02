@@ -1,12 +1,12 @@
-import React from 'react';
-import './NotFound.css'
+import React from "react";
+import "./NotFound.css";
 
 const NotFound = () => {
-    return (
-        <div className='not-found-error'>
-            <img src="https://cdn5.vectorstock.com/i/1000x1000/73/49/404-error-page-not-found-miss-paper-with-white-vector-20577349.jpg" alt="" />
-        </div>
-    );
+  return (
+    <div className="not-found-error">
+      <img src="https://i.ibb.co/D5mTMrF/funny-404-page.jpg" alt="" />
+    </div>
+  );
 };
 
 export default NotFound;
